@@ -1,0 +1,10 @@
+version: '3'
+services:
+  game1:
+    image: 2048-game-image 
+    ports:
+      - "8080:8080"          
+  game2:
+    image: 2048-game-image   
+    ports:
+      - "8081:8080"           
